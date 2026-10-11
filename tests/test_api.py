@@ -37,7 +37,7 @@ def test_health():
 
     assert (
         response.status_code
-        == 201
+        == 200
     )
 
     assert (
